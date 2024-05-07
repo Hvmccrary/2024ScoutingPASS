@@ -1,8 +1,7 @@
 // TBAInterface funcitons to pull data from TheBlueAlliance.com
-var teams = null;
-var schedule = null;
-var authKey = "VC1M3xdOSEkE6DXk1xJTRJxIWi064ie0xFWtaIdDT5mM9GjI6PBuX9DNuLL8M5Kn";
-@param {2024okok} 
+var teams = @param {2024okok} ;
+var schedule = @param {2024okok} ;
+var authKey = "VC1M3xdOSEkE6DXk1xJTRJxIWi064ie0xFWtaIdDT5mM9GjI6PBuX9DNuLL8M5Kn"; 
 
 function getTeams(eventCode) {
 	if (authKey) {
@@ -21,7 +20,7 @@ function getTeams(eventCode) {
 	}
 }
 
-@param {2024okok} 
+
 function getSchedule(eventCode) {
 	if (authKey) {
 		var xmlhttp = new XMLHttpRequest();
