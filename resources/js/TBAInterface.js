@@ -2,11 +2,8 @@
 var teams = null;
 var schedule = null;
 var authKey = "VC1M3xdOSEkE6DXk1xJTRJxIWi064ie0xFWtaIdDT5mM9GjI6PBuX9DNuLL8M5Kn";
-/**
- * Get list of teams in event
- *
- * @param {eventCode} eventCode the event code (i.e. 2020caln) to pull the team list
- */
+@param {2024okok} 
+
 function getTeams(eventCode) {
 	if (authKey) {
 		var xmlhttp = new XMLHttpRequest();
@@ -24,11 +21,7 @@ function getTeams(eventCode) {
 	}
 }
 
-/**
- * Get schefule for event
- *
- * @param {eventCode} eventCode the event code (i.e. 2020caln) to pull the team list
- */
+@param {2024okok} 
 function getSchedule(eventCode) {
 	if (authKey) {
 		var xmlhttp = new XMLHttpRequest();
